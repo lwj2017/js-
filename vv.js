@@ -1,0 +1,48 @@
+$("#guonei").click(function(){
+	$("#img1").hide();
+	$("#img2").hide();
+	$("#img3").hide();
+	$("#img4").show();
+	$("#img5").show();
+	$("#img6").show();
+	$("#img7").show();
+	$("#img8").show();
+	$("#img9").show();
+});
+$("#all").click(function(){
+	$("#img1").show();
+	$("#img2").show();
+	$("#img3").show();
+	$("#img4").show();
+	$("#img5").show();
+	$("#img6").show();
+	$("#img7").show();
+	$("#img8").show();
+	$("#img9").show();
+});
+$("#oumei").click(function(){
+	$("#img1").show();
+	$("#img2").show();
+	$("#img3").show();
+	$("#img4").hide();
+	$("#img5").hide();
+	$("#img6").hide();
+	$("#img7").show();
+	$("#img8").show();
+	$("#img9").show();
+});
+$("#feizhou").click(function(){
+	$("#img1").show();
+	$("#img2").show();
+	$("#img3").show();
+	$("#img4").show();
+	$("#img5").show();
+	$("#img6").show();
+	$("#img7").hide();
+	$("#img8").hide();
+	$("#img9").hide();
+});
+$(document).ready(function(){
+	
+	
+});
